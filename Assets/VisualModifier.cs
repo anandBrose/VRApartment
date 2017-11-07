@@ -15,10 +15,12 @@ public class VisualModifier : MonoBehaviour {
 	}
 
 
-    public void SetColor()
-    {
-        GetComponent<MeshRenderer>().material.color = Color.red;
-    }
+//    public void SetColor(string rgb) {
+  //      Color color = new Color();
+    //    color.r = float.Parse(s, CultureInfo.InvariantCulture);
+      //  GetComponent<MeshRenderer>().material.color = color;
+   // }
+
     public void SetTexture(Texture texture)
     {
         GetComponent<MeshRenderer>().material.mainTexture = texture;
