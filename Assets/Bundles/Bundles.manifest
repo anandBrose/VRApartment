@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 3810869376
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sweethome1.hd
+      Dependencies: {}
+    Info_1:
+      Name: sweethome3.hd
+      Dependencies: {}
+    Info_2:
+      Name: sweethome2.hd
+      Dependencies: {}

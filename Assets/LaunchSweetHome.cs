@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class LaunchSweetHome : MonoBehaviour {
 
-    private bool nowHighlighted = false;
+	private bool nowHighlighted = false;
+	public GameObject listView;
     // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Fire1") && nowHighlighted)
         {
             this.nowHighlighted = false;
-            SceneManager.LoadScene("Sweethome");
+			listView.SetActive (true);
+			listView.GetComponent<HomeListView> ().reset();
+			gameObject.transform.parent.gameObject.SetActive (false);
         }
 
     }

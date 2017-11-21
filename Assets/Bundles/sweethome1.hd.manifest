@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3246071123
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2b5f8c2aac5651c63a0b1349a9f5ba3f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af6cbcf0aca337d63baef97851d269d3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5bea4c06885e0d241a8fe0bb2f817a81, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Houses/Sweet 3d home.prefab
+Dependencies: []
